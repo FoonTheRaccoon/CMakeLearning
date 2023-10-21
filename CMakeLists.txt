@@ -12,8 +12,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 include_directories("source/libFolder")
 include_directories("source/exeFolder")
 
-file(GLOB SOURCES *.cpp )
-
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/bin/")
 
 add_subdirectory("source/libFolder")

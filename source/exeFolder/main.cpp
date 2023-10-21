@@ -3,7 +3,7 @@
 #include <vector>
 #include <string>
 #include "..\libFolder\libEntry.h"
-#include "FunctionHelpers.h"
+#include "Stuff\FunctionHelpers.h"
 
 
 using namespace std;
