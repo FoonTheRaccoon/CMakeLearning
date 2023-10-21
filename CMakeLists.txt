@@ -9,8 +9,10 @@ project(
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
+
 include_directories("source/libFolder")
 include_directories("source/exeFolder")
+include_directories("source/exeFolder/Stuff")
 
 #Send executables to top level bin folder
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/bin/")

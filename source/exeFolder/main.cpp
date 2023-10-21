@@ -2,29 +2,20 @@
 #include <ostream>
 #include <vector>
 #include <string>
-#include "..\libFolder\libEntry.h"
-#include "Stuff\FunctionHelpers.h"
+#include "libEntry.h"
+#include "FunctionHelpers.h"
 
 
-using namespace std;
 
 int main()
 {
-    vector<string> msg {"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
+    std::cout << "Hello from Main.cpp!\n";
 
-    for (const string& word : msg)
-    {
-        cout << word << " ";
-    }
-    cout << endl;
-
-    Test::TestFunction();
+    TestLibrary::TestFunction();
     FunctionHelpers::HelperOne();
 
-    int UnusedVar = 69;
-
     std::string input;
-    cin >> input;
+    std::cin >> input;
 
     return EXIT_SUCCESS;
 }
