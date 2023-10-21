@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.20.0)
 project(
 	"CmakeLearning"
-	VERSION 0.1.0
+	VERSION 1.0.0
 	LANGUAGES CXX
 )
 
@@ -12,6 +12,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 include_directories("source/libFolder")
 include_directories("source/exeFolder")
 
+#Send executables to top level bin folder
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/bin/")
 
 add_subdirectory("source/libFolder")
