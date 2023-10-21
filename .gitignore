@@ -25,6 +25,7 @@ CMakeScripts
 Makefile
 cmake_install.cmake
 install_manifest.txt
+CMakeSettings.json
 
 # Roslyn cache directories
 *.ide/
