@@ -8,3 +8,4 @@ add_executable(testApp main.cpp ${SOURCES})
 #target_include_directories(testApp PUBLIC ${SUBDIRECTORIES})
 
 target_link_libraries(testApp testLib)
+#A thing
