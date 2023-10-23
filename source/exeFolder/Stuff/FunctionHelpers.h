@@ -4,7 +4,7 @@
 
 namespace FunctionHelpers
 {
-    extern void HelperOne();
+    void HelperOne();
 }
 
 #endif //FUNTION_HELPERS_H

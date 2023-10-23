@@ -1,10 +1,22 @@
 # Executable
+set(SOURCES
+    Stuff/FunctionHelpers.cpp
+ )
 
-file(GLOB_RECURSE SOURCES "*.cpp" "*.h" "*.hpp" ${LIB_HEADERS})
-add_executable(testApp main.cpp ${SOURCES})
+ set(HEADERS
+    Stuff/FunctionHelpers.h
+ )
 
-# Grab all the sub folders to be included
-#file(GLOB_RECURSE SUBDIRECTORIES RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} *)
-#target_include_directories(testApp PUBLIC ${SUBDIRECTORIES})
+
+add_executable(testApp main.cpp)
+target_sources(testApp PUBLIC 
+    ${HEADERS} 
+    ${SOURCES} 
+    )
+
+target_include_directories(testApp PUBLIC
+    ../libFolder
+    Stuff
+)
 
 target_link_libraries(testApp testLib)
