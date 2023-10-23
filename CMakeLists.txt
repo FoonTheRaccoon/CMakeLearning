@@ -12,7 +12,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Clang specific stuff
 if(CMAKE_CXX_COMPILER_ID MATCHES "Clang")
-  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-switch-enum")
+	set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-switch-enum -Wno-nullability-completeness -Wno-unused-variable -Wno-unused-private-field -Wno-format-security" 
+	)
 endif()
 
 

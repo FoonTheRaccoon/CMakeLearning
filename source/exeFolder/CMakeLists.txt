@@ -1,6 +1,5 @@
 # Executable
 set(SOURCES
-    main.cpp
     Stuff/FunctionHelpers.cpp
  )
 
@@ -9,7 +8,12 @@ set(SOURCES
  )
 
 
-add_executable(testApp main.cpp ${SOURCES} ${HEADERS} ${LIB_HEADERS})
+add_executable(testApp main.cpp)
+target_sources(testApp PUBLIC 
+    ${HEADERS} 
+    ${SOURCES} 
+    )
+
 target_include_directories(testApp PUBLIC
     ../libFolder
     Stuff

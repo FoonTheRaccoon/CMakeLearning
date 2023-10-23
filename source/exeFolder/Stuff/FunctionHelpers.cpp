@@ -1,7 +1,7 @@
 #include "FunctionHelpers.h"
 #include <iostream>
 
-// void FunctionHelpers::HelperOne()
-// {
-//     std::cout << "Hello from Function Helpers!\n";
-// }
+void FunctionHelpers::HelperOne()
+{
+    std::cout << "Hello from Function Helpers!\n";
+}

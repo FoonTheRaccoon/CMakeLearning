@@ -5,10 +5,7 @@
 
 namespace FunctionHelpers
 {
-    inline void HelperOne()
-    {
-        std::cout << "Hello from Function Helpers!\n";
-    }
+    void HelperOne();
 }
 
 #endif //FUNTION_HELPERS_H

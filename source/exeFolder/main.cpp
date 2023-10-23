@@ -13,8 +13,8 @@ int main()
     TestLibrary::TestFunction();
     FunctionHelpers::HelperOne();
 
-    std::string input;
-    std::cin >> input;
+    //std::string input;
+    //std::cin >> input;
 
     return EXIT_SUCCESS;
 }
