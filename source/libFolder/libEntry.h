@@ -6,10 +6,7 @@
 #include "vulkan.h"
 #include "vk_enum_string_helper.h"
 #include "vulkan_core.h"
-<<<<<<< HEAD
 #include "glm.hpp"
-=======
->>>>>>> 9d5426922dc0b92da5e5a57dcec080d7d734a7a1
 
 namespace TestLibrary
 {
@@ -45,14 +42,11 @@ namespace TestLibrary
         {
             std::cout << "Failed to create VKInstance! Error == " << string_VkResult(result);
         }
-<<<<<<< HEAD
 
         glm::vec3 var1(1,2,3);
         glm::vec3 var2(4,5,6);
         glm::vec3 var3 = var1 + var2;
         std::cout << "GLM test: " << var3.z << "\n";
-=======
->>>>>>> 9d5426922dc0b92da5e5a57dcec080d7d734a7a1
     }
 }
 
