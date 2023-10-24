@@ -165,6 +165,7 @@ AppPackages/
 # Others
 sql/
 *.Cache
+.vscode/
 ClientBin/
 [Ss]tyle[Cc]op.*
 ~$*
